@@ -1,0 +1,47 @@
+// week.. using switch statement 
+let week = 8;
+
+switch (week)
+{
+    case 1: console.log("Monday");break; 
+    case 2: console.log("Tuesday");break; 
+    case 3: console.log("Wensday");break; 
+    case 4: console.log("Thusday");break; 
+    case 5: console.log("Frieday");break; 
+    case 6: console.log("Staturday");break; 
+    case 7: console.log("Sunday");break; 
+    default : console.log("invalid Week Number");
+
+}
+
+// using if , else if 
+
+let month = 13;
+
+if(month == 1)
+{ console.log("Jan");}
+else if (month ==2)
+{console.log("Feb");}
+else if (month ==3)
+{console.log("Mar");}
+else if (month ==4)
+{console.log("Apr");}
+else if (month ==5)
+{console.log("May");}
+else if (month ==6)
+{console.log("June");}
+else if (month ==7)
+{console.log("July");}
+else if (month ==8)
+{console.log("Aug");}
+else if (month ==9)
+{console.log("Sep");}
+else if (month ==10)
+{console.log("oct");}
+else if (month ==11)
+{console.log("Nov");}
+else if (month ==12)
+{console.log("Dec");}
+else{console.log("Invalid month Number");}
+
+
